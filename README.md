@@ -19,39 +19,39 @@ Basic Example
 ==============
 
 Init gauges in a frame with start angle, radius and thickness
-
+```objc
     LDGauge gauge = [[LDGauges alloc]initWithFrame:CGRectMake(30, 0, 250, 250) startAngle:0
                                       gaugesRadius:100 gaugesThickness:5];
-
+```
 Set gauges color
-
+```objc
     [gauge setColor:[UIColor colorWithRed:209/255.0f green:210/255.0f blue:204/255.0f alpha:1.0]];
-
+```
 Set gauges background color
-
+```objc
     [gauge setBackgroundColor:[UIColor colorWithRed:56/255.0f green:184/255.0f blue:154/255.0f alpha:1.0]];
-    
+```   
 Add gauge view to the main view
-
+```objc
     [self.view addSubview:_gaugesView];
-
+```
 Customization
 =============
 
 ### Update percentage
 
 this method require a percentage value, (change value automatically trigger component animation)
-
+```objc
     [gauges setGaugesRate:30];
-
+```
 ### Change font 
-
+```objc
     [gauge setFont:[UIFont fontWithName:@"Helvetica" size:40]];
-
+```
 ### Change font color 
-
+```objc
     [gauge setFontColor:[UIColor blackColor]];
-
+```
 
 License
 =======
