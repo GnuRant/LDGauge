@@ -1,4 +1,4 @@
-LDGauges v0.1
+LDGauge v0.1
 ========
 This iOS UI element provides a customizable gauge, you can customize  size, color, thickness and many other cool things.
 
@@ -28,34 +28,32 @@ Init gauges in a frame with start angle, radius and thickness
 ```
 Set gauge color
 ```objc
-    [gauge setColor:[UIColor colorWithRed:209/255.0f green:210/255.0f blue:204/255.0f alpha:1.0]];
+    [gauge setGaugeColor:[UIColor colorWithRed:209/255.0f green:210/255.0f blue:204/255.0f alpha:1.0]];
 ```
 Set gauge background color
 ```objc
-    [gauge setBackgroundColor:[UIColor colorWithRed:56/255.0f green:184/255.0f blue:154/255.0f alpha:1.0]];
-```
+    [gauge setGaugeBackgroundColor:[UIColor colorWithRed:56/255.0f green:184/255.0f blue:154/255.0f alpha:1.0]];
+```   
 Add gauge to the main view
 ```objc
-    [self.view addSubview:_gaugesView];
+    [self.view addSubview:gauge];
 ```
 Customization
 =============
 
 ### Update percentage
 
-This method require a percentage value, (change value automatically trigger component animation)
+This method requires a percentage value, (changing value, it triggers the component animation automatically)
 ```objc
     [gauges setGaugesRate:30];
 ```
-### Change font 
+### Add percentage string, change font and color 
 ```objc
     [gauge setFont:[UIFont fontWithName:@"Helvetica" size:40]];
 ```
-### Change font color 
 ```objc
     [gauge setFontColor:[UIColor blackColor]];
 ```
-
 License
 =======
 
