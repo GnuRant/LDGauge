@@ -2,9 +2,10 @@
 //  LDGaugesLayer.h
 //
 //  Created by Luca D'Incà on 29/06/13.
-//  Copyright (c) 2012 Loupe. All rights reserved.
+//  Copyright (c) 2013 Luca D'Incà. All rights reserved.
 //
 //  This code comes with no warranty, free to use for any purpose
+//  Licensed under the Apache License, Version 2.0 http://www.apache.org/licenses/LICENSE-2.0
 
 #import <QuartzCore/QuartzCore.h>
 
