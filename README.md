@@ -33,7 +33,7 @@ Set gauge color
 Set gauge background color
 ```objc
     [gauge setBackgroundColor:[UIColor colorWithRed:56/255.0f green:184/255.0f blue:154/255.0f alpha:1.0]];
-```   
+```
 Add gauge to the main view
 ```objc
     [self.view addSubview:_gaugesView];
